@@ -1,0 +1,25 @@
+{
+  "name": "new-wallet",
+  "version": "1.0.0",
+  "description": "Easily generate a new Ethereum (compatible) wallet on the copmmand line.",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mttmzr/new-wallet.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mttmzr",
+    "email": "mttmzr@users.noreply.github.com",
+    "url": "https://github.com/mttmzr"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mttmzr/new-wallet/issues"
+  },
+  "homepage": "https://github.com/mttmzr/new-wallet#readme",
+  "dependencies": {
+    "ethers": "^5.5.1"
+  }
+}
