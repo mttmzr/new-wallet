@@ -1,6 +1,6 @@
 {
   "name": "new-wallet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily generate a new Ethereum (compatible) wallet on the copmmand line.",
   "main": "index.js",
   "bin": "index.js",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mttmzr/new-wallet#readme",
   "dependencies": {
+    "commander": "^8.3.0",
     "ethers": "^5.5.1"
   }
 }
