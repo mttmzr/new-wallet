@@ -1,6 +1,6 @@
 {
   "name": "new-wallet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily generate a new Ethereum (compatible) wallet on the copmmand line.",
   "main": "index.js",
   "bin": "index.js",

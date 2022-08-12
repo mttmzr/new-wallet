@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node --openssl-legacy-provider
 
 const { Wallet } = require('ethers')
 const { program } = require('commander')
