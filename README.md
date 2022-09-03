@@ -7,4 +7,4 @@ Install this package directly from GitHub with `npm i -g mttmzr/new-wallet`. The
 Until ethers.js is updated to version 5.7, this cli tool uses the --openssl-legacy-provider flag to be compatible with Node 18, which is the version I use. This may break compatibility with earlier Node versions.
 
 ## Credits
-This package uses [ethers.js](docs.ethers.io) under the hood.
+This package uses [ethers.js](https://docs.ethers.io/v5/) under the hood.
