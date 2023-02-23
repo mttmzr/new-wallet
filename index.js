@@ -6,7 +6,7 @@ const { program } = require('commander')
 program.version(require('./package.json').version)
 
 program.option('-m, --mnemonic <mnemonic>', 'Mnemonic phrase to use instead of randomly generated one')
-program.option('-i, --index <index>', 'Index to be used with derivation path', '0') // Max is 2147483647
+program.option('-i, --index <index>', 'Index to be used with derivation path', '0') // Max is 2147483647 = max(int32)
 
 program.parse(process.argv)
 
